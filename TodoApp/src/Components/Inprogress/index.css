@@ -1,0 +1,32 @@
+.progressdiv {
+  border: 2px solid rgb(255, 255, 255);
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 2px #888888;
+  overflow-y: auto;
+}
+.progressdiv h1 {
+  text-align: center;
+}
+.progressdiv p {
+    text-align: center;
+  }
+  
+
+.entry {
+  display: flex;
+  border: 2px solid rgb(255, 255, 255);
+  justify-content: space-between;
+  padding: 10px;
+  background-color: rgb(19, 21, 23);
+  color: aliceblue;
+  font-weight: bold;
+  margin: 10px;
+}
+.icons {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}

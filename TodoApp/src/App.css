@@ -1,0 +1,37 @@
+.top-container {
+  border: 2px solid rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  height: 90vh;
+  width: 90%;
+  margin-left: 60px;
+  padding: 10px;
+  background-color: rgb(62, 58, 58);
+  color: white;
+}
+.top-container h1{
+  box-shadow: 2px 2px 2px 2px #251e1e;
+  margin: 0px 10px;
+}
+.inputbox {
+  width: 60%;
+  height: 5vh;
+  font-size: x-large;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 2px #888888;
+}
+button {
+  display: flex;
+  gap: 10px;
+  border-radius: 10px;
+  padding: 10px;
+  font-weight: bold;
+  font-size: x-large;
+  box-shadow: 2px 2px 2px 2px #888888;
+}
+.datadiv {
+  display: flex;
+  gap: 40px;
+}
